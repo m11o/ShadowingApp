@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct ContentHeaderView: View {
     let title: String
     let wpm: Int
     
@@ -38,8 +38,8 @@ struct HeaderView: View {
     }
 }
 
-struct HeaderView_Previews: PreviewProvider {
+struct ContentHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(title: "AI: 課題1", wpm: 170)
+        ContentHeaderView(title: "AI: 課題1", wpm: 170)
     }
 }

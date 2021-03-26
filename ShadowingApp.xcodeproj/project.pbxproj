@@ -11,7 +11,7 @@
 		04A1882C260C588F00A0E12A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1882B260C588F00A0E12A /* ContentView.swift */; };
 		04A1882E260C589000A0E12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1882D260C589000A0E12A /* Assets.xcassets */; };
 		04A18831260C589000A0E12A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A18830260C589000A0E12A /* Preview Assets.xcassets */; };
-		04A18842260C811100A0E12A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18841260C811100A0E12A /* HeaderView.swift */; };
+		04A18842260C811100A0E12A /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18841260C811100A0E12A /* ContentHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		04A1882D260C589000A0E12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A18830260C589000A0E12A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A18832260C589000A0E12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04A18841260C811100A0E12A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04A18841260C811100A0E12A /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		04A18840260C80E200A0E12A /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				04A18841260C811100A0E12A /* HeaderView.swift */,
+				04A18841260C811100A0E12A /* ContentHeaderView.swift */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A1882C260C588F00A0E12A /* ContentView.swift in Sources */,
-				04A18842260C811100A0E12A /* HeaderView.swift in Sources */,
+				04A18842260C811100A0E12A /* ContentHeaderView.swift in Sources */,
 				04A1882A260C588F00A0E12A /* ShadowingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
