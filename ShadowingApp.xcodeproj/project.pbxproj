@@ -16,6 +16,7 @@
 		04B90147260DC79300A83B97 /* ContentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B90146260DC79300A83B97 /* ContentsListView.swift */; };
 		04B9014B260DC7AA00A83B97 /* ContentsListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9014A260DC7AA00A83B97 /* ContentsListItemView.swift */; };
 		04B90150260DCC9E00A83B97 /* String+truncate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9014F260DCC9E00A83B97 /* String+truncate.swift */; };
+		04FE9E08261C42B4009B897E /* ScriptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE9E07261C42B4009B897E /* ScriptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		04B90146260DC79300A83B97 /* ContentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsListView.swift; sourceTree = "<group>"; };
 		04B9014A260DC7AA00A83B97 /* ContentsListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsListItemView.swift; sourceTree = "<group>"; };
 		04B9014F260DCC9E00A83B97 /* String+truncate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+truncate.swift"; sourceTree = "<group>"; };
+		04FE9E07261C42B4009B897E /* ScriptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				04B90146260DC79300A83B97 /* ContentsListView.swift */,
 				04B9014A260DC7AA00A83B97 /* ContentsListItemView.swift */,
+				04FE9E07261C42B4009B897E /* ScriptView.swift */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				04B90150260DCC9E00A83B97 /* String+truncate.swift in Sources */,
 				04A1882C260C588F00A0E12A /* ContentView.swift in Sources */,
 				04A18842260C811100A0E12A /* ContentHeaderView.swift in Sources */,
+				04FE9E08261C42B4009B897E /* ScriptView.swift in Sources */,
 				04A1882A260C588F00A0E12A /* ShadowingAppApp.swift in Sources */,
 				04B90141260DC3FA00A83B97 /* DefaultHeaderView.swift in Sources */,
 				04B90147260DC79300A83B97 /* ContentsListView.swift in Sources */,
