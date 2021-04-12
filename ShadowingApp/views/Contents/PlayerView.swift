@@ -26,14 +26,14 @@ struct PlayerView: View {
             }
             HStack() {
                 Button(action: { /* 何もしない */ }) {
-                    Image("CheckIcon")
+                    Image("checkIcon")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
                 }
                 Spacer()
                 
                 Button(action: { /* 何もしない */ }) {
-                    Image("RewindIcon")
+                    Image("rewindIcon")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
                 }
@@ -48,14 +48,14 @@ struct PlayerView: View {
                 Spacer()
                 
                 Button(action: { /* 何もしない */ }) {
-                    Image("FastForwardIcon")
+                    Image("fastForwardIcon")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
                 }
                 Spacer()
                 
                 Button(action: { /* 何もしない */ }) {
-                    Image("SettingsIcon")
+                    Image("settingsIcon")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
                 }
